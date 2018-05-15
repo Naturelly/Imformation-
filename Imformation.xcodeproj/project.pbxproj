@@ -10,6 +10,48 @@
 		8133A2D92094577C005DD9F1 /* Imformation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8133A2CF2094577C005DD9F1 /* Imformation.framework */; };
 		8133A2DE2094577C005DD9F1 /* ImformationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8133A2DD2094577C005DD9F1 /* ImformationTests.m */; };
 		8133A2E02094577C005DD9F1 /* Imformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8133A2D22094577C005DD9F1 /* Imformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8136C82E209AB32100BB6F3E /* IMTYNetInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8136C82C209AB32100BB6F3E /* IMTYNetInfo.h */; };
+		8136C82F209AB32100BB6F3E /* IMTYNetInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8136C82D209AB32100BB6F3E /* IMTYNetInfo.m */; };
+		8136C832209AB5C100BB6F3E /* IMTYMobilModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8136C830209AB5C100BB6F3E /* IMTYMobilModel.h */; };
+		8136C833209AB5C100BB6F3E /* IMTYMobilModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8136C831209AB5C100BB6F3E /* IMTYMobilModel.m */; };
+		8136C836209AB7BB00BB6F3E /* IMZGDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8136C834209AB7BB00BB6F3E /* IMZGDeviceInfo.h */; };
+		8136C837209AB7BB00BB6F3E /* IMZGDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8136C835209AB7BB00BB6F3E /* IMZGDeviceInfo.m */; };
+		8136C9C5209AE55600BB6F3E /* IMImformationAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 8136C9BF209AE55600BB6F3E /* IMImformationAction.m */; };
+		8136C9C6209AE55600BB6F3E /* IMImformationTotal.h in Headers */ = {isa = PBXBuildFile; fileRef = 8136C9C0209AE55600BB6F3E /* IMImformationTotal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8136C9C7209AE55600BB6F3E /* IMiPhoneImformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8136C9C1209AE55600BB6F3E /* IMiPhoneImformation.m */; };
+		8136C9C8209AE55600BB6F3E /* IMImformationAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 8136C9C2209AE55600BB6F3E /* IMImformationAction.h */; };
+		8136C9C9209AE55600BB6F3E /* IMImformationTotal.m in Sources */ = {isa = PBXBuildFile; fileRef = 8136C9C3209AE55600BB6F3E /* IMImformationTotal.m */; };
+		8136C9CA209AE55600BB6F3E /* IMiPhoneImformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8136C9C4209AE55600BB6F3E /* IMiPhoneImformation.h */; };
+		8136CA2D209AE61800BB6F3E /* IMMWBaseMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 8136C9CC209AE61700BB6F3E /* IMMWBaseMacro.h */; };
+		8136CA2E209AE61800BB6F3E /* IMMWProgressHUD+NJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 8136C9CE209AE61700BB6F3E /* IMMWProgressHUD+NJ.m */; };
+		8136CA2F209AE61800BB6F3E /* IMMWProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8136C9CF209AE61700BB6F3E /* IMMWProgressHUD.bundle */; };
+		8136CA30209AE61800BB6F3E /* IMMWProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8136C9D0209AE61700BB6F3E /* IMMWProgressHUD.m */; };
+		8136CA31209AE61800BB6F3E /* IMMWProgressHUD+NJ.h in Headers */ = {isa = PBXBuildFile; fileRef = 8136C9D1209AE61700BB6F3E /* IMMWProgressHUD+NJ.h */; };
+		8136CA87209AE61800BB6F3E /* IMMWNetworkingUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 8136CA2A209AE61800BB6F3E /* IMMWNetworkingUtil.h */; };
+		8136CA88209AE61800BB6F3E /* IMMWNetworkingUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8136CA2B209AE61800BB6F3E /* IMMWNetworkingUtil.m */; };
+		8167FAAB209949F000DDC4ED /* IMZGScreenInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8167FA92209949F000DDC4ED /* IMZGScreenInfo.h */; };
+		8167FAB0209949F000DDC4ED /* IMZGJailBreak.h in Headers */ = {isa = PBXBuildFile; fileRef = 8167FA97209949F000DDC4ED /* IMZGJailBreak.h */; };
+		8167FAB1209949F000DDC4ED /* IMZGStorageInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8167FA98209949F000DDC4ED /* IMZGStorageInfo.h */; };
+		8167FAB6209949F000DDC4ED /* IMZGScreenInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8167FA9D209949F000DDC4ED /* IMZGScreenInfo.m */; };
+		8167FABB209949F000DDC4ED /* IMZGInfoCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 8167FAA2209949F000DDC4ED /* IMZGInfoCollection.h */; };
+		8167FAC0209949F000DDC4ED /* IMZGStorageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8167FAA7209949F000DDC4ED /* IMZGStorageInfo.m */; };
+		8167FAC1209949F000DDC4ED /* IMZGJailBreak.m in Sources */ = {isa = PBXBuildFile; fileRef = 8167FAA8209949F000DDC4ED /* IMZGJailBreak.m */; };
+		8173A37E20A5985A006A8C4C /* IMMWTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 8173A37C20A5985A006A8C4C /* IMMWTool.h */; };
+		8173A37F20A5985A006A8C4C /* IMMWTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8173A37D20A5985A006A8C4C /* IMMWTool.m */; };
+		8173A38320A599FD006A8C4C /* IMMWProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 8173A38220A599FD006A8C4C /* IMMWProgressHUD.h */; };
+		81835B1F2099CB37002E5B3B /* IMHardcodedDeviceData.h in Headers */ = {isa = PBXBuildFile; fileRef = 81835B1D2099CB36002E5B3B /* IMHardcodedDeviceData.h */; };
+		81835B202099CB37002E5B3B /* IMHardcodedDeviceData.m in Sources */ = {isa = PBXBuildFile; fileRef = 81835B1E2099CB36002E5B3B /* IMHardcodedDeviceData.m */; };
+		81B9779720AAB00200002F97 /* TYThirdLoginAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B9778720AAB00100002F97 /* TYThirdLoginAction.m */; };
+		81B9779820AAB00200002F97 /* TYThirdLoginAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B9778820AAB00100002F97 /* TYThirdLoginAction.h */; };
+		81B9779920AAB00200002F97 /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B9778B20AAB00200002F97 /* WXApi.h */; };
+		81B9779A20AAB00200002F97 /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B9778C20AAB00200002F97 /* WXApiObject.h */; };
+		81B9779B20AAB00200002F97 /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B9778D20AAB00200002F97 /* WechatAuthSDK.h */; };
+		81B9779C20AAB00200002F97 /* WBHttpRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B9779020AAB00200002F97 /* WBHttpRequest.h */; };
+		81B9779D20AAB00200002F97 /* WeiboSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B9779120AAB00200002F97 /* WeiboSDK.h */; };
+		81B9779E20AAB00200002F97 /* sdkdef.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B9779320AAB00200002F97 /* sdkdef.h */; };
+		81B9779F20AAB00200002F97 /* TencentOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B9779420AAB00200002F97 /* TencentOAuth.h */; };
+		81B977A020AAB00200002F97 /* QQApiInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B9779520AAB00200002F97 /* QQApiInterface.h */; };
+		81B977A120AAB00200002F97 /* QQApiInterfaceObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B9779620AAB00200002F97 /* QQApiInterfaceObject.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +71,49 @@
 		8133A2D82094577C005DD9F1 /* ImformationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImformationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8133A2DD2094577C005DD9F1 /* ImformationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImformationTests.m; sourceTree = "<group>"; };
 		8133A2DF2094577C005DD9F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8133A3A320947A74005DD9F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8136C82C209AB32100BB6F3E /* IMTYNetInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMTYNetInfo.h; sourceTree = "<group>"; };
+		8136C82D209AB32100BB6F3E /* IMTYNetInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMTYNetInfo.m; sourceTree = "<group>"; };
+		8136C830209AB5C100BB6F3E /* IMTYMobilModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMTYMobilModel.h; sourceTree = "<group>"; };
+		8136C831209AB5C100BB6F3E /* IMTYMobilModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMTYMobilModel.m; sourceTree = "<group>"; };
+		8136C834209AB7BB00BB6F3E /* IMZGDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMZGDeviceInfo.h; sourceTree = "<group>"; };
+		8136C835209AB7BB00BB6F3E /* IMZGDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMZGDeviceInfo.m; sourceTree = "<group>"; };
+		8136C9BF209AE55600BB6F3E /* IMImformationAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMImformationAction.m; sourceTree = "<group>"; };
+		8136C9C0209AE55600BB6F3E /* IMImformationTotal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMImformationTotal.h; sourceTree = "<group>"; };
+		8136C9C1209AE55600BB6F3E /* IMiPhoneImformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMiPhoneImformation.m; sourceTree = "<group>"; };
+		8136C9C2209AE55600BB6F3E /* IMImformationAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMImformationAction.h; sourceTree = "<group>"; };
+		8136C9C3209AE55600BB6F3E /* IMImformationTotal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMImformationTotal.m; sourceTree = "<group>"; };
+		8136C9C4209AE55600BB6F3E /* IMiPhoneImformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMiPhoneImformation.h; sourceTree = "<group>"; };
+		8136C9CC209AE61700BB6F3E /* IMMWBaseMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMMWBaseMacro.h; sourceTree = "<group>"; };
+		8136C9CE209AE61700BB6F3E /* IMMWProgressHUD+NJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IMMWProgressHUD+NJ.m"; sourceTree = "<group>"; };
+		8136C9CF209AE61700BB6F3E /* IMMWProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IMMWProgressHUD.bundle; sourceTree = "<group>"; };
+		8136C9D0209AE61700BB6F3E /* IMMWProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMMWProgressHUD.m; sourceTree = "<group>"; };
+		8136C9D1209AE61700BB6F3E /* IMMWProgressHUD+NJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IMMWProgressHUD+NJ.h"; sourceTree = "<group>"; };
+		8136CA2A209AE61800BB6F3E /* IMMWNetworkingUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMMWNetworkingUtil.h; sourceTree = "<group>"; };
+		8136CA2B209AE61800BB6F3E /* IMMWNetworkingUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMMWNetworkingUtil.m; sourceTree = "<group>"; };
+		8167FA92209949F000DDC4ED /* IMZGScreenInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMZGScreenInfo.h; sourceTree = "<group>"; };
+		8167FA97209949F000DDC4ED /* IMZGJailBreak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMZGJailBreak.h; sourceTree = "<group>"; };
+		8167FA98209949F000DDC4ED /* IMZGStorageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMZGStorageInfo.h; sourceTree = "<group>"; };
+		8167FA9D209949F000DDC4ED /* IMZGScreenInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMZGScreenInfo.m; sourceTree = "<group>"; };
+		8167FAA2209949F000DDC4ED /* IMZGInfoCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMZGInfoCollection.h; sourceTree = "<group>"; };
+		8167FAA7209949F000DDC4ED /* IMZGStorageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMZGStorageInfo.m; sourceTree = "<group>"; };
+		8167FAA8209949F000DDC4ED /* IMZGJailBreak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMZGJailBreak.m; sourceTree = "<group>"; };
+		8173A37C20A5985A006A8C4C /* IMMWTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMMWTool.h; sourceTree = "<group>"; };
+		8173A37D20A5985A006A8C4C /* IMMWTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMMWTool.m; sourceTree = "<group>"; };
+		8173A38220A599FD006A8C4C /* IMMWProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMMWProgressHUD.h; sourceTree = "<group>"; };
+		81835B1D2099CB36002E5B3B /* IMHardcodedDeviceData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMHardcodedDeviceData.h; sourceTree = "<group>"; };
+		81835B1E2099CB36002E5B3B /* IMHardcodedDeviceData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMHardcodedDeviceData.m; sourceTree = "<group>"; };
+		81B9778720AAB00100002F97 /* TYThirdLoginAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYThirdLoginAction.m; sourceTree = "<group>"; };
+		81B9778820AAB00100002F97 /* TYThirdLoginAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYThirdLoginAction.h; sourceTree = "<group>"; };
+		81B9778B20AAB00200002F97 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		81B9778C20AAB00200002F97 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		81B9778D20AAB00200002F97 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		81B9779020AAB00200002F97 /* WBHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBHttpRequest.h; sourceTree = "<group>"; };
+		81B9779120AAB00200002F97 /* WeiboSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboSDK.h; sourceTree = "<group>"; };
+		81B9779320AAB00200002F97 /* sdkdef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sdkdef.h; sourceTree = "<group>"; };
+		81B9779420AAB00200002F97 /* TencentOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TencentOAuth.h; sourceTree = "<group>"; };
+		81B9779520AAB00200002F97 /* QQApiInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQApiInterface.h; sourceTree = "<group>"; };
+		81B9779620AAB00200002F97 /* QQApiInterfaceObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQApiInterfaceObject.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +141,7 @@
 				8133A2D12094577C005DD9F1 /* Imformation */,
 				8133A2DC2094577C005DD9F1 /* ImformationTests */,
 				8133A2D02094577C005DD9F1 /* Products */,
+				8133A3A220947A74005DD9F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +157,11 @@
 		8133A2D12094577C005DD9F1 /* Imformation */ = {
 			isa = PBXGroup;
 			children = (
+				81B9778620AAB00100002F97 /* IMThirdLogin */,
+				81B9778920AAB00100002F97 /* IMTool */,
+				8136C9BE209AE55600BB6F3E /* ImformationTotal */,
+				8167FA8F209949F000DDC4ED /* IMZGInfoCollection */,
+				8136C9CB209AE61700BB6F3E /* IMNetworking */,
 				8133A2D22094577C005DD9F1 /* Imformation.h */,
 				8133A2D32094577C005DD9F1 /* Info.plist */,
 			);
@@ -86,6 +177,139 @@
 			path = ImformationTests;
 			sourceTree = "<group>";
 		};
+		8133A3A220947A74005DD9F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8133A3A320947A74005DD9F1 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8136C9BE209AE55600BB6F3E /* ImformationTotal */ = {
+			isa = PBXGroup;
+			children = (
+				8136C9C0209AE55600BB6F3E /* IMImformationTotal.h */,
+				8136C9C3209AE55600BB6F3E /* IMImformationTotal.m */,
+				8136C9C2209AE55600BB6F3E /* IMImformationAction.h */,
+				8136C9BF209AE55600BB6F3E /* IMImformationAction.m */,
+				8136C9C4209AE55600BB6F3E /* IMiPhoneImformation.h */,
+				8136C9C1209AE55600BB6F3E /* IMiPhoneImformation.m */,
+			);
+			path = ImformationTotal;
+			sourceTree = "<group>";
+		};
+		8136C9CB209AE61700BB6F3E /* IMNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				8136C9CD209AE61700BB6F3E /* IMMWProgressHUD_1.0 */,
+				8136C9D3209AE61700BB6F3E /* IMMWRsa */,
+			);
+			path = IMNetworking;
+			sourceTree = "<group>";
+		};
+		8136C9CD209AE61700BB6F3E /* IMMWProgressHUD_1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				8173A38220A599FD006A8C4C /* IMMWProgressHUD.h */,
+				8136C9D0209AE61700BB6F3E /* IMMWProgressHUD.m */,
+				8136C9D1209AE61700BB6F3E /* IMMWProgressHUD+NJ.h */,
+				8136C9CE209AE61700BB6F3E /* IMMWProgressHUD+NJ.m */,
+				8136C9CF209AE61700BB6F3E /* IMMWProgressHUD.bundle */,
+			);
+			path = IMMWProgressHUD_1.0;
+			sourceTree = "<group>";
+		};
+		8136C9D3209AE61700BB6F3E /* IMMWRsa */ = {
+			isa = PBXGroup;
+			children = (
+				8173A37C20A5985A006A8C4C /* IMMWTool.h */,
+				8173A37D20A5985A006A8C4C /* IMMWTool.m */,
+				8136C9CC209AE61700BB6F3E /* IMMWBaseMacro.h */,
+				8136CA2A209AE61800BB6F3E /* IMMWNetworkingUtil.h */,
+				8136CA2B209AE61800BB6F3E /* IMMWNetworkingUtil.m */,
+			);
+			path = IMMWRsa;
+			sourceTree = "<group>";
+		};
+		8167FA8F209949F000DDC4ED /* IMZGInfoCollection */ = {
+			isa = PBXGroup;
+			children = (
+				8167FAA2209949F000DDC4ED /* IMZGInfoCollection.h */,
+				81835B1D2099CB36002E5B3B /* IMHardcodedDeviceData.h */,
+				81835B1E2099CB36002E5B3B /* IMHardcodedDeviceData.m */,
+				8136C834209AB7BB00BB6F3E /* IMZGDeviceInfo.h */,
+				8136C835209AB7BB00BB6F3E /* IMZGDeviceInfo.m */,
+				8167FA97209949F000DDC4ED /* IMZGJailBreak.h */,
+				8167FAA8209949F000DDC4ED /* IMZGJailBreak.m */,
+				8167FA92209949F000DDC4ED /* IMZGScreenInfo.h */,
+				8167FA9D209949F000DDC4ED /* IMZGScreenInfo.m */,
+				8167FA98209949F000DDC4ED /* IMZGStorageInfo.h */,
+				8167FAA7209949F000DDC4ED /* IMZGStorageInfo.m */,
+				8136C82C209AB32100BB6F3E /* IMTYNetInfo.h */,
+				8136C82D209AB32100BB6F3E /* IMTYNetInfo.m */,
+				8136C830209AB5C100BB6F3E /* IMTYMobilModel.h */,
+				8136C831209AB5C100BB6F3E /* IMTYMobilModel.m */,
+			);
+			path = IMZGInfoCollection;
+			sourceTree = "<group>";
+		};
+		81B9778620AAB00100002F97 /* IMThirdLogin */ = {
+			isa = PBXGroup;
+			children = (
+				81B9778820AAB00100002F97 /* TYThirdLoginAction.h */,
+				81B9778720AAB00100002F97 /* TYThirdLoginAction.m */,
+			);
+			path = IMThirdLogin;
+			sourceTree = "<group>";
+		};
+		81B9778920AAB00100002F97 /* IMTool */ = {
+			isa = PBXGroup;
+			children = (
+				81B9778A20AAB00200002F97 /* IMWX */,
+				81B9778E20AAB00200002F97 /* IMWEB */,
+				81B9779220AAB00200002F97 /* IMQQ */,
+			);
+			path = IMTool;
+			sourceTree = "<group>";
+		};
+		81B9778A20AAB00200002F97 /* IMWX */ = {
+			isa = PBXGroup;
+			children = (
+				81B9778B20AAB00200002F97 /* WXApi.h */,
+				81B9778C20AAB00200002F97 /* WXApiObject.h */,
+				81B9778D20AAB00200002F97 /* WechatAuthSDK.h */,
+			);
+			path = IMWX;
+			sourceTree = "<group>";
+		};
+		81B9778E20AAB00200002F97 /* IMWEB */ = {
+			isa = PBXGroup;
+			children = (
+				81B9778F20AAB00200002F97 /* libWeiboSDK */,
+			);
+			path = IMWEB;
+			sourceTree = "<group>";
+		};
+		81B9778F20AAB00200002F97 /* libWeiboSDK */ = {
+			isa = PBXGroup;
+			children = (
+				81B9779020AAB00200002F97 /* WBHttpRequest.h */,
+				81B9779120AAB00200002F97 /* WeiboSDK.h */,
+			);
+			path = libWeiboSDK;
+			sourceTree = "<group>";
+		};
+		81B9779220AAB00200002F97 /* IMQQ */ = {
+			isa = PBXGroup;
+			children = (
+				81B9779320AAB00200002F97 /* sdkdef.h */,
+				81B9779420AAB00200002F97 /* TencentOAuth.h */,
+				81B9779520AAB00200002F97 /* QQApiInterface.h */,
+				81B9779620AAB00200002F97 /* QQApiInterfaceObject.h */,
+			);
+			path = IMQQ;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +317,33 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8136C9C6209AE55600BB6F3E /* IMImformationTotal.h in Headers */,
+				8136CA31209AE61800BB6F3E /* IMMWProgressHUD+NJ.h in Headers */,
+				8136C832209AB5C100BB6F3E /* IMTYMobilModel.h in Headers */,
+				81B977A020AAB00200002F97 /* QQApiInterface.h in Headers */,
+				8167FAAB209949F000DDC4ED /* IMZGScreenInfo.h in Headers */,
+				81B9779F20AAB00200002F97 /* TencentOAuth.h in Headers */,
+				8167FAB1209949F000DDC4ED /* IMZGStorageInfo.h in Headers */,
+				8136CA2D209AE61800BB6F3E /* IMMWBaseMacro.h in Headers */,
+				8167FAB0209949F000DDC4ED /* IMZGJailBreak.h in Headers */,
+				8136C836209AB7BB00BB6F3E /* IMZGDeviceInfo.h in Headers */,
+				8136C9CA209AE55600BB6F3E /* IMiPhoneImformation.h in Headers */,
+				81B9779D20AAB00200002F97 /* WeiboSDK.h in Headers */,
+				8173A37E20A5985A006A8C4C /* IMMWTool.h in Headers */,
+				81B977A120AAB00200002F97 /* QQApiInterfaceObject.h in Headers */,
 				8133A2E02094577C005DD9F1 /* Imformation.h in Headers */,
+				81B9779820AAB00200002F97 /* TYThirdLoginAction.h in Headers */,
+				81B9779920AAB00200002F97 /* WXApi.h in Headers */,
+				8136CA87209AE61800BB6F3E /* IMMWNetworkingUtil.h in Headers */,
+				8173A38320A599FD006A8C4C /* IMMWProgressHUD.h in Headers */,
+				8136C9C8209AE55600BB6F3E /* IMImformationAction.h in Headers */,
+				8136C82E209AB32100BB6F3E /* IMTYNetInfo.h in Headers */,
+				81B9779B20AAB00200002F97 /* WechatAuthSDK.h in Headers */,
+				81835B1F2099CB37002E5B3B /* IMHardcodedDeviceData.h in Headers */,
+				8167FABB209949F000DDC4ED /* IMZGInfoCollection.h in Headers */,
+				81B9779A20AAB00200002F97 /* WXApiObject.h in Headers */,
+				81B9779C20AAB00200002F97 /* WBHttpRequest.h in Headers */,
+				81B9779E20AAB00200002F97 /* sdkdef.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +426,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8136CA2F209AE61800BB6F3E /* IMMWProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +444,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81B9779720AAB00200002F97 /* TYThirdLoginAction.m in Sources */,
+				8136CA2E209AE61800BB6F3E /* IMMWProgressHUD+NJ.m in Sources */,
+				8136C833209AB5C100BB6F3E /* IMTYMobilModel.m in Sources */,
+				8167FAC0209949F000DDC4ED /* IMZGStorageInfo.m in Sources */,
+				8136CA30209AE61800BB6F3E /* IMMWProgressHUD.m in Sources */,
+				8167FAB6209949F000DDC4ED /* IMZGScreenInfo.m in Sources */,
+				8136C9C7209AE55600BB6F3E /* IMiPhoneImformation.m in Sources */,
+				8136C837209AB7BB00BB6F3E /* IMZGDeviceInfo.m in Sources */,
+				8167FAC1209949F000DDC4ED /* IMZGJailBreak.m in Sources */,
+				8136C9C5209AE55600BB6F3E /* IMImformationAction.m in Sources */,
+				8173A37F20A5985A006A8C4C /* IMMWTool.m in Sources */,
+				81835B202099CB37002E5B3B /* IMHardcodedDeviceData.m in Sources */,
+				8136C9C9209AE55600BB6F3E /* IMImformationTotal.m in Sources */,
+				8136C82F209AB32100BB6F3E /* IMTYNetInfo.m in Sources */,
+				8136CA88209AE61800BB6F3E /* IMMWNetworkingUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +533,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -322,7 +588,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -334,19 +600,29 @@
 		8133A2E42094577C005DD9F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Imformation/IMNetworking/MWRsa/include\"";
 				INFOPLIST_FILE = Imformation/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Imformation/IMNetworking/MWRsa/include",
+				);
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.maowan.Imformation;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -357,19 +633,29 @@
 		8133A2E52094577C005DD9F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Imformation/IMNetworking/MWRsa/include\"";
 				INFOPLIST_FILE = Imformation/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Imformation/IMNetworking/MWRsa/include",
+				);
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.maowan.Imformation;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
